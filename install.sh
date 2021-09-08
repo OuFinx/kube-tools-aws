@@ -2,7 +2,7 @@
 
 set -e
 
-apk add --update py3-pip curl make openssl groff wget
+apk add --update py3-pip curl make openssl groff wget zip
 
 # install kubectl
 curl -L "https://dl.k8s.io/release/$(curl -Ls https://dl.k8s.io/release/stable.txt)/bin/linux/amd64/kubectl" -o /usr/local/bin/kubectl
